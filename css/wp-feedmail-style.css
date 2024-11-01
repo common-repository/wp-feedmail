@@ -1,0 +1,49 @@
+/* CSS for WP-Feedmail */
+.feedmail-list h2{
+	padding-bottom:20px;
+}
+.feedmail-list table tr{
+ 	height:40px;
+}
+.feedmail-list table tr td{
+	padding-top:11px;
+
+}
+.feedmail-form{
+	width: 224px;
+}
+.feedmail-form p{
+	margin-bottom: 0px;
+    margin-top: 2px;
+	width: 222px;
+}
+.feedmail-form input[type="text"]{
+	width:215px;
+	height:25px;
+	margin-top:13px;
+}
+.feedmail-form input[type="submit"]{
+	background:url(../subscribe.gif) no-repeat 9px 2px;
+	border: medium none;
+    color: #FFFFFF;
+    height: 30px;
+    margin-top: 9px;
+    width: 96px;
+	margin-left: -8px;
+}
+
+.feedmail-textarea{
+	width:300px;
+	height:75px;
+}
+.feedmail-form .error{
+	color:#F00;
+	font-style:italic;
+}
+.feedmail-form #response1,.feedmail-form #response2{
+	display:none;
+	padding-top:6px;
+	color:#F00;
+	font-style:italic;
+
+}
